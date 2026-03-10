@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
@@ -8,7 +8,8 @@ int main() {
 
     cin >> num1 >> num2;
 
-    media = (num1 + num2)/2;
+    media = (float)(num1 + num2)/2;
 
-    cout << fixed << setprecision(2) << media;
+    cout.precision(1); cout << fixed;
+    cout << media << "\n";
 }

@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
@@ -10,5 +10,5 @@ int main() {
 
     resultado = abs(num1 - num2);
 
-    cout << resultado;
+    cout << resultado << "\n";
 }

@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
@@ -9,5 +9,5 @@ int main() {
     
     soma = num1 + num2 + num3;
     
-    cout << soma;
+    cout << soma << "\n";
 }

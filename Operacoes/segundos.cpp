@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
@@ -17,6 +17,6 @@ int main() {
 
     segundos = tempo;
 
-    cout << horas << ":" << minutos << ":" << segundos;
+    cout << horas << ":" << minutos << ":" << segundos << "\n";
 
 }

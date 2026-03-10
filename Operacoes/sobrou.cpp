@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
@@ -14,5 +14,6 @@ int main() {
 
     troco = dinheiro - (produto1*valor1 + produto2*valor2 + produto3*valor3);
 
-    cout << fixed << setprecision(2) << troco;
+    cout.precision(2); cout << fixed;
+    cout << troco << "\n";
 }

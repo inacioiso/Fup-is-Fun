@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
@@ -11,5 +11,5 @@ int main() {
 
     resto = num1%num2;
 
-    cout << quociente << " " << resto;
+    cout << quociente << " " << resto << "\n";
 }

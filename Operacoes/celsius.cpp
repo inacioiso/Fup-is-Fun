@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
@@ -10,6 +10,6 @@ int main() {
 
     fahrenheit = 1.8*celsius + 32;
 
-    cout << fixed << setprecision(6) << fahrenheit;
-
+    cout.precision(6); cout << fixed;
+    cout << fahrenheit << "\n";
 }
